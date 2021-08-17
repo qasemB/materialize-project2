@@ -7,6 +7,10 @@
     font-style: normal;
 }
 
+body{
+    background: url(/assets/images/body_back4.jpg) repeat;
+}
+
 *{
     font-family: "BYekan";
     direction: rtl;
@@ -31,6 +35,10 @@
     background: #555;
 }
 
+.nav_container{
+    filter: drop-shadow(0 0 5px black);
+}
+
 nav .brand-logo{
     width: 80px;
     top: 0.5rem;
@@ -44,6 +52,10 @@ nav .brand-logo img{
 
 nav .brand-logo img:hover{
     filter: drop-shadow(0 0 5px #f8bbd0);
+}
+
+nav ul li a:hover{
+    background: transparent;
 }
 
 .navbar_ul{
@@ -79,6 +91,38 @@ nav .brand-logo img:hover{
     bottom: 10px;
     transform: scaleX(1);
     border-radius: 20%;
+}
+
+/* top menu mobile  status */
+#mobile-demo{
+    background: linear-gradient(#4a148cc5 , #c2185bb9 , #4a148cd3) ,
+        url(../images/sideBack.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#mobile-demo li{
+    width: 100%;
+}
+#mobile-demo li a{
+    text-align: center;
+    color: white;
+    transition: all 100ms ease;
+}
+#mobile-demo li a:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 1.3rem;
+    backdrop-filter: blur(1px);
+}
+
+#nav_svg{
+   position: fixed;
+   top: 32px; 
+   pointer-events: none !important;
 }
 
 @media(min-width:992px){
