@@ -125,6 +125,23 @@ nav ul li a:hover{
    pointer-events: none !important;
 }
 
+.top_carousel{
+    height: calc(100vh - 64px) !important;
+}
+
+.top_carousel a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top_carousel a img{
+    min-height: 100% !important;
+    width: unset !important;
+    min-width: 100% !important;
+}
+
 @media(min-width:992px){
     nav .brand-logo{
         right: 5px !important;
