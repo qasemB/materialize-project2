@@ -8,6 +8,15 @@ document.addEventListener('DOMContentLoaded', function() {
     M.Carousel.init(carouselElems, {
         fullWidth: true,
         indicators: true,
+        onCycleTo: function(){
+            let elems = document.querySelectorAll('.top_text');
+            for (const item of elems) {
+                item.classList.remove('isShow');
+                setTimeout(function(){
+                    item.classList.add('isShow')
+                },700)
+            }
+        },
     });
 
     setInterval(function(){
