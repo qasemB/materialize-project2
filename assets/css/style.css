@@ -37,6 +37,7 @@ body{
 
 .nav_container{
     filter: drop-shadow(0 0 5px black);
+    -webkit-filter:  drop-shadow(0 0 5px black);
 }
 
 nav .brand-logo{
@@ -47,6 +48,7 @@ nav .brand-logo{
 nav .brand-logo img{
     width: 100%;
     filter: drop-shadow(0 0 1px white);
+    -webkit-filter: drop-shadow(0 0 1px white);
     transition: all 200ms ease;
 }
 
@@ -117,6 +119,7 @@ nav ul li a:hover{
     background-color: rgba(0, 0, 0, 0.3);
     font-size: 1.3rem;
     backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
 }
 
 #nav_svg{
@@ -168,6 +171,10 @@ nav ul li a:hover{
 
 .mt_4{
     margin-top: 2rem !important;
+}
+
+.mt_8{
+    margin-bottom: 4rem !important;
 }
 .w_100{
     width: 100% !important;
@@ -238,6 +245,9 @@ nav ul li a:hover{
     min-width: 100%;
     min-height: 100%;
     object-fit: cover;
+    -o-object-fit: cover;
+    -webkit-object-fit: cover;
+    -moz-object-fit: cover;
 }
 
 .simple_item .image::after{
