@@ -271,6 +271,34 @@ nav ul li a:hover{
     transform: scale(1);
 }
 
+.my_4{
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+}
+
+.mx_2{
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+}
+
+
+.d_flex_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_items_icon a{
+    transition: all 100ms linear;
+}
+.social_items_icon a:hover{
+    text-shadow: 0 0 8px black;
+    transform: scale(1.2);
+    color: #e1bee7 !important;
+}
+
+
+
 
 
 
