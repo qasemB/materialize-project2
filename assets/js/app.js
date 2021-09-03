@@ -23,5 +23,8 @@ document.addEventListener('DOMContentLoaded', function() {
         M.Carousel.getInstance(carouselElems[0]).next()
     } , 5000)
 
+    var elemsFloatingButton = document.querySelectorAll('.fixed-action-btn');
+    M.FloatingActionButton.init(elemsFloatingButton, {});
+
 
 });

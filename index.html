@@ -14,45 +14,48 @@
 <body dir="rtl">
 
   <!-- header start --------------- -->
-  <div class="navbar-fixed">
-    <nav class="pink darken-4 nav_container">
+  <header>
+    <div class="navbar-fixed">
+      <nav class="pink darken-4 nav_container">
+  
+        <svg
+          id="nav_svg"
+          viewBox="0 0 1440 320">
+          <path
+            fill="#880e4f "
+            fill-opacity="1"
+            d="M0,64L120,58.7C240,53,480,43,720,48C960,53,1200,75,1320,85.3L1440,96L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"
+          ></path>
+        </svg>
+  
+        <a href="#!" class="brand-logo">
+          <img src="assets/images/logo.png" alt="">
+        </a>
+  
+  
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fas fa-bars"></i></a>
+  
+        <ul class="navbar_ul right hide-on-med-and-down main_ul_navbar">
+          <li class="tab"><a class="menu_links_desktop active" href="#content1">داشبورد</a></li>
+          <li class="tab"><a class="menu_links_desktop" href="#content2">گالری ها</a></li>
+          <li class="tab"><a class="menu_links_desktop " href="#content3">ویدئوها</a></li>
+          <li class="tab"><a class="menu_links_desktop" href="#content4">مقالات</a></li>
+          <li class="tab"><a class="menu_links_desktop" href="#content5">تماس با ما</a></li>
+          <li class="tab"><a class="menu_links_desktop" href="#content5">درباره ما</a></li>
+        </ul>
+  
+      </nav>
+    </div>
+    <ul class="sidenav main_ul_navbar" id="mobile-demo">
+      <li class="tab"><a class="menu_item_list" href="#content1">داشبورد</a></li>
+      <li class="tab"><a class="menu_item_list" href="#content2">گالری ها</a></li>
+      <li class="tab"><a class="menu_item_list" href="#content3">ویدئوها</a></li>
+      <li class="tab"><a class="menu_item_list" href="#content4">مقالات</a></li>
+      <li class="tab"><a class="menu_item_list" href="#content5">تماس با ما</a></li>
+      <li class="tab"><a class="menu_item_list" href="#content5">درباره ما </a></li>
+    </ul>
+  </header>
 
-      <svg
-        id="nav_svg"
-        viewBox="0 0 1440 320">
-        <path
-          fill="#880e4f "
-          fill-opacity="1"
-          d="M0,64L120,58.7C240,53,480,43,720,48C960,53,1200,75,1320,85.3L1440,96L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"
-        ></path>
-      </svg>
-
-      <a href="#!" class="brand-logo">
-        <img src="assets/images/logo.png" alt="">
-      </a>
-
-
-      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fas fa-bars"></i></a>
-
-      <ul class="navbar_ul right hide-on-med-and-down main_ul_navbar">
-        <li class="tab"><a class="menu_links_desktop active" href="#content1">داشبورد</a></li>
-        <li class="tab"><a class="menu_links_desktop" href="#content2">گالری ها</a></li>
-        <li class="tab"><a class="menu_links_desktop " href="#content3">ویدئوها</a></li>
-        <li class="tab"><a class="menu_links_desktop" href="#content4">مقالات</a></li>
-        <li class="tab"><a class="menu_links_desktop" href="#content5">تماس با ما</a></li>
-        <li class="tab"><a class="menu_links_desktop" href="#content5">درباره ما</a></li>
-      </ul>
-
-    </nav>
-  </div>
-  <ul class="sidenav main_ul_navbar" id="mobile-demo">
-    <li class="tab"><a class="menu_item_list" href="#content1">داشبورد</a></li>
-    <li class="tab"><a class="menu_item_list" href="#content2">گالری ها</a></li>
-    <li class="tab"><a class="menu_item_list" href="#content3">ویدئوها</a></li>
-    <li class="tab"><a class="menu_item_list" href="#content4">مقالات</a></li>
-    <li class="tab"><a class="menu_item_list" href="#content5">تماس با ما</a></li>
-    <li class="tab"><a class="menu_item_list" href="#content5">درباره ما </a></li>
-  </ul>
   <!-- header end --------------- -->
 
   <main>
@@ -566,6 +569,41 @@
     </div>
   </footer>
   <!-- footer end -->
+
+  <!-- floating button social media start -->    
+  <div class="fixed-action-btn">
+    <a class="btn-floating btn-large green pulse">
+      <i class="large fas fa-phone"></i>
+    </a>
+    <ul>
+      <li>
+        <a class="btn-floating red">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </li>
+      <li>
+        <a class="btn-floating blue lighten-2">
+          <i class="fab fa-telegram"></i>
+        </a>
+      </li>
+      <li>
+        <a class="btn-floating cyan">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="btn-floating blue">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="btn-floating red">
+          <i class="fab fa-youtube"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <!-- floating button social media end -->
 
 
 

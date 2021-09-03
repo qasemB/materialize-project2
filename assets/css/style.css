@@ -170,6 +170,18 @@ nav ul li a:hover{
    pointer-events: none !important;
 }
 
+
+.devider{
+    width: 100%;
+    filter: drop-shadow(0 0 5px #880e4f);
+    margin: 3rem 0 !important;
+}
+
+.devider img{
+    width: 90%;
+    max-width: 450px;
+}
+
 @media(min-width:992px){
     nav .brand-logo{
         right: 5px !important;
