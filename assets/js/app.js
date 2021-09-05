@@ -26,5 +26,8 @@ document.addEventListener('DOMContentLoaded', function() {
     var elemsFloatingButton = document.querySelectorAll('.fixed-action-btn');
     M.FloatingActionButton.init(elemsFloatingButton, {});
 
+    var elems = document.querySelectorAll('select');
+    M.FormSelect.init(elems, {});
+
 
 });

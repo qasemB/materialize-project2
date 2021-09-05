@@ -182,10 +182,61 @@ nav ul li a:hover{
     max-width: 450px;
 }
 
+.p_2{
+    padding: 1rem !important;
+}
+
+.my_2{
+    margin: 1rem 0 !important;
+}
+
 @media(min-width:992px){
     nav .brand-logo{
         right: 5px !important;
     }
+}
+
+.simple_item{
+    height: 30vh;
+    padding: 0.5rem;
+}
+.simple_item .image{
+    height: 100% !important;
+    width: 100% !important;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.simple_item .image img{
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    -o-object-fit: cover;
+    -webkit-object-fit: cover;
+    -moz-object-fit: cover;
+}
+
+.simple_item .image::after{
+    content: "مشاهده گالری";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(39, 2, 39, 0.8) ;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    transition: all 200ms ease;
+    color: #f8bbd0;
+    border-radius: 5px !important;
+}
+
+.simple_item:hover .image::after{
+    transform: scale(1);
 }
 
 
