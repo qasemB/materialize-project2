@@ -1,0 +1,67 @@
+.article_container{
+    width: 90%;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.article_container .back_avatar_image{
+    position: absolute;
+    width: 6.6rem;
+    height: 6.6rem;
+    background: white;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 25px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.article_container .avatar_image{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+}
+
+.article_container .top_image{
+    width: 50vw;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 0.5rem;
+    background: white;
+    display: flex;
+    box-shadow: 0 0 5px purple;
+}
+
+.article_container .article_info{
+    position: absolute;
+    bottom: 1px;
+    width: calc(100% - 1rem);
+}
+
+.main_svg{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.main_svg svg{
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 64px;
+}
+
+.main_svg .shape-fill{
+    fill: #ffffff;
+}
+
+

@@ -71,7 +71,7 @@ nav ul li a:hover{
 }
 
 .mt_8{
-    margin-bottom: 4rem !important;
+    margin-top: 4rem !important;
 }
 .w_100{
     width: 100% !important;
@@ -298,6 +298,24 @@ nav ul li a:hover{
 
 .pagination li.active{
     background-color: #880e4f;
+}
+
+.text_justify{
+    text-align: justify !important;
+}
+
+.position_relative{
+    position: relative !important;
+}
+
+.px_1{
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+}
+
+.d_flex_between{
+    display: flex;
+    justify-content: space-between;
 }
 
 
