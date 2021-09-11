@@ -186,6 +186,11 @@ nav ul li a:hover{
     padding: 1rem !important;
 }
 
+.px_2{
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
 .my_2{
     margin: 1rem 0 !important;
 }
@@ -316,6 +321,19 @@ nav ul li a:hover{
 .d_flex_between{
     display: flex;
     justify-content: space-between;
+}
+
+.my_1{
+   margin-top: 0.5rem !important; 
+   margin-bottom: 0.5rem !important; 
+}
+.py_1{
+   padding-top: 0.5rem !important; 
+   padding-bottom: 0.5rem !important; 
+}
+
+.h_100{
+    height: 100% !important;
 }
 
 

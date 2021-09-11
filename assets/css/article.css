@@ -64,4 +64,30 @@
     fill: #ffffff;
 }
 
+.article_main_text{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    padding: 1rem;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    text-align: center;
+}
+
+.article_main_text img{
+    width: 40vw;
+    border-radius: 5px;
+}
+
+.other_article_items{
+    background: rgba(240, 240, 240, 0.6);
+    border-radius: 3px;
+    transition: all 200ms ease;
+}
+
+.other_article_items:hover{
+    background: #e1bee7;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+
 
