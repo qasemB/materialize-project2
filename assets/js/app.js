@@ -29,5 +29,15 @@ document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('select');
     M.FormSelect.init(elems, {});
 
+    var textAreaElem = document.querySelectorAll('.materialize-textarea');
+    M.CharacterCounter.init(textAreaElem)
+
+    document.getElementById('confirm_comment').addEventListener('click' , function(){
+        M.toast({
+            html: 'نظر با موفقیت ثبت شد !',
+            classes: 'green lighten-1'
+        })
+    })
+
 
 });

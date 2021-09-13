@@ -336,4 +336,13 @@ nav ul li a:hover{
     height: 100% !important;
 }
 
+#comments_container{
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    padding: 1rem;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    text-align: center;
+}
+
 
