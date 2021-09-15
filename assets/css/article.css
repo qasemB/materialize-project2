@@ -89,5 +89,16 @@
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
+@media(max-width:600px){
+    .article_container .top_image{
+        width: 90vw;
+    }
+
+    
+    .article_main_text img{
+        width: 60vw;
+    }
+}
+
 
 

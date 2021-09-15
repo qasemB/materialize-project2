@@ -345,4 +345,8 @@ nav ul li a:hover{
     text-align: center;
 }
 
+.d_block{
+    display: block !important;
+}
+
 
