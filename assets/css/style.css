@@ -350,3 +350,52 @@ nav ul li a:hover{
 }
 
 
+#gallery_section{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    background: rgba(46, 30, 46, 0.95);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    opacity: 0;
+    transition: all 300ms ease;
+}
+
+#gallery_section.active{
+    transform: scale(1);
+    opacity: 1;
+}
+
+#gallery_section i{
+    position: absolute;
+    top: 5px ;
+    left: 5px;
+    cursor: pointer;
+}
+
+#gallery_section .gallery_content{
+    width: 100%;
+    height: 80vh !important;
+}
+
+#gallery_section .carousel-item{
+    height: 100% !important;
+    width: 50vw;
+}
+
+#gallery_section .carousel-item img{
+    border-radius: 10px;
+}
+
+@media(max-width:900px){
+    
+    #gallery_section .carousel-item{
+        width: 95vw;
+    }
+}
+
