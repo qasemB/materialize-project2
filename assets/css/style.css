@@ -201,11 +201,11 @@ nav ul li a:hover{
     }
 }
 
-.simple_item{
+.simple_item , .simple_item2{
     height: 30vh;
     padding: 0.5rem;
 }
-.simple_item .image{
+.simple_item .image , .simple_item2 .image{
     height: 100% !important;
     width: 100% !important;
     border-radius: 5px;
@@ -214,7 +214,7 @@ nav ul li a:hover{
     justify-content: center;
     align-items: center;
 }
-.simple_item .image img{
+.simple_item .image img , .simple_item2 .image img{
     min-width: 100%;
     min-height: 100%;
     object-fit: cover;
@@ -223,7 +223,7 @@ nav ul li a:hover{
     -moz-object-fit: cover;
 }
 
-.simple_item .image::after{
+.simple_item .image::after , .simple_item2 .image::after{
     content: "مشاهده گالری";
     display: flex;
     justify-content: center;
@@ -240,7 +240,7 @@ nav ul li a:hover{
     border-radius: 5px !important;
 }
 
-.simple_item:hover .image::after{
+.simple_item:hover .image::after , .simple_item2:hover .image::after{
     transform: scale(1);
 }
 
