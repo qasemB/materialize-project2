@@ -29,9 +29,12 @@ document.addEventListener('DOMContentLoaded', function() {
         })
     }
 
-    document.getElementById('close_gallery_section').addEventListener('click' , function(){
-        document.getElementById('gallery_section').classList.remove('active');
-    })
+    if (document.getElementById('close_gallery_section')) {
+        document.getElementById('close_gallery_section').addEventListener('click' , function(){
+            document.getElementById('gallery_section').classList.remove('active');
+        })    
+    }
+
 
     setInterval(function(){
         M.Carousel.getInstance(carouselElems[0]).next()
